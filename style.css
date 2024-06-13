@@ -1,0 +1,43 @@
+.random-div {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+}
+
+.product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10%;
+}
+
+.product img {
+    width: 100px;
+    height: 100px;
+}
+
+.product h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}       
+
+.product button {
+    padding: 10px 20px;
+    background-color: #00a72a;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cart{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+}
